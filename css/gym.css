@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/img/home-slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red;*/
+    position: absolute;
+    left: 34px;
+    top: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.left div a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.left img {
+    display: inline-block;
+    width: 71px;
+    margin-right: 0px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    width: 33%;
+    margin: 21px auto;
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid blue; */
+    position: absolute;
+    right: 34px;
+    top: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar>li {
+    display: inline-block;
+}
+
+.navbar>li>a {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    padding: 0px 11px;
+    font-size: 16px;
+
+}
+
+.navbar>li>a:hover,.navbar>li>a.active {
+    text-decoration: underline;
+    color: rgba(11, 5, 22, 0.767);
+}
+
+.btn {
+    background-color: rgba(53, 35, 87, 0.767);
+    color: rgba(255, 255, 255, 0.596);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px 9px;
+}
+
+.btn:hover {
+    background-color: rgba(28, 16, 51, 0.767);
+}
+
+.form {
+    border: rgba(255, 255, 255, 0.651);
+    color: rgba(255, 255, 255, 0.651);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 32%;
+    margin: 69px 0px 0px 107px;
+}
+
+.form-group {
+    padding: 11px;
+}
+
+.form-group > input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 400px;
+    text-align: center;
+    margin: -7px;
+    border: 2px solid rgba(255, 255, 255, 0.651);;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form > div > button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(53, 35, 87, 0.767);
+    border: 2px solid rgba(38, 23, 66, 0.767);
+    width: 412px;
+    color: rgba(255, 255, 255, 0.596);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 13px;
+    padding: 7px;
+}
+
+form > div > button:hover {
+    background-color: rgba(28, 16, 51, 0.767);
+}
